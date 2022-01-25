@@ -90,7 +90,7 @@ Contains most management functions.
 
 ##### `init(): Promise<void>`
 
-Initializes DBus and interfaces. **MUST** be called bevor any bluetooth interaction is done.
+Initializes DBus and interfaces. **MUST** be called befor any bluetooth interaction is done.
 Attach device event listeners first, because calling *init()* will emit device events for paired devices.
 
 ##### `registerProfile(profile: Profile, options: ProfileOptions): Promise<void>`
